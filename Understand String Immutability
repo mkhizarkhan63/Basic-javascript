@@ -2,4 +2,5 @@
 var myStr = "Jello World";
 
 myStr[0] = "H"; // Fix Me
+console.log(myStr);
 
