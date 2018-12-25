@@ -1,2 +1,6 @@
 //example 
 var ourArray = ["John", 23];
+
+
+//Example
+var ourArray = [["the universe", 42], ["everything", 101010]];
