@@ -1,0 +1,23 @@
+<script>
+/// Here is push() function in javascript which means simple push function add element or array on the last of exsist array.
+var myArray = [1,2,3,4]; /// Now we wanna add to 5 on last.
+myArray.push(5); 
+document.write(myArray);
+///In multi-dimensional array.
+var multi_Array = [["dog",1],["cat",2]];
+multi_Array.push(["mouse",3]);
+
+/// Here is pop() method is js which means simple pop out or remove last element or array on the last of exsist array.
+var myPopArray = [1,2,3]; /// Now we want to remove 3 on the last.
+var removeElement = myPopArray.pop(); /// remove element is here in the varaible now thus here is 3 has saved.
+console.log(myPopArray); /// And you can see Actual array.
+
+
+
+
+
+
+
+
+
+</script>
