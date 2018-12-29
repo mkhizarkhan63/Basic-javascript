@@ -1,0 +1,15 @@
+<script>
+///here we using shift() method shift method works just like pop() but instead of remove last elements in the array it removes at first.
+
+var myArray = [["john",1],["paul",2]];
+var removedArrayElements = myArray.shift();
+console.log(removedArrayElements); ///["john",1]
+
+///We are using unsift() method it works just like the push().except it add elements at first instead last. 
+
+var myArray = [["paul",2]];
+myArray.unshift(["john",1]);
+console.log(removedArrayElements); ///["john",1] ["paul",2]
+
+
+</script>
